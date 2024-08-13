@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    font-size: 1rem;
+    color: #fff;
+    background-color: #282c34;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: #3b3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    flex-wrap: wrap;
+}
+
+nav .array-inputs {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav .array-inputs p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+nav .array-inputs input[type="range"] {
+    width: 150px;
+    margin-right: 1rem;
+}
+
+nav .array-inputs button {
+    background-color: #61dafb;
+    border: none;
+    color: #282c34;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav .array-inputs button:hover {
+    background-color: #21a1f1;
+}
+
+nav .header_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav .header_right .nav-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+nav .header_right .algos {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+nav .header_right .algos button {
+    background-color: #61dafb;
+    border: none;
+    color: #282c34;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav .header_right .algos button:hover {
+    background-color: #21a1f1;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem 5%;
+}
+
+section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+section .info-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .Complexity_Containers {
+    display: flex;
+    gap: 2rem;
+}
+
+section .Complexity_Containers .Pair_Definitions {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+section .Complexity_Containers .Pair_Definitions p {
+    font-size: 1rem;
+}
+
+section #array_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    background-color: #3b3a3a;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.hide {
+    display: none;
+}
+
